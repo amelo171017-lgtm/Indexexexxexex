@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         if (move_uploaded_file($_FILES['data']['tmp_name'], $filePath)) {
             echo json_encode([
                 'success' => true,
-                'url' => 'https://paulolinks.com/uploads/' . $customName
+                'url' => 'https://maluhhpigatti.com/uploads/' . $customName
             ]);
         } else {
             echo json_encode([
